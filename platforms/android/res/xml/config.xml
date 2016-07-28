@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.raiselearning.liftlearning" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="PushPlugin">
+        <param name="android-package" value="com.plugin.gcm.PushPlugin" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <allow-intent href="market:*" />
+    <icon density="hdpi" src="res/android/drawable-hdpi/ic_launcher.png" />
+    <icon density="ldpi" src="res/android/drawable-ldpi/ic_launcher.png" />
+    <icon density="mdpi" src="res/android/drawable-mdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="res/android/drawable-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="res/android/drawable-xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" src="res/android/drawable-xxxhdpi/ic_launcher.png" />
+    <splash density="land-hdpi" src="res/screen/android/images/res-long-land-hdpi/default.png" />
+    <splash density="land-ldpi" src="res/screen/android/images/res-long-land-ldpi/default.png" />
+    <splash density="land-mdpi" src="res/screen/android/images/res-long-land-mdpi/default.png" />
+    <splash density="land-xhdpi" src="res/screen/android/images/res-long-land-xhdpi/default.png" />
+    <splash density="land-xxhdpi" src="res/screen/android/images/res-long-land-xxhdpi/default.png" />
+    <splash density="land-xxxhdpi" src="res/screen/android/images/res-long-land-xxxhdpi/default.png" />
+    <splash density="port-hdpi" src="res/screen/android/images/res-long-port-hdpi/default.png" />
+    <splash density="port-ldpi" src="res/screen/android/images/res-long-port-ldpi/default.png" />
+    <splash density="port-mdpi" src="res/screen/android/images/res-long-port-mdpi/default.png" />
+    <splash density="port-xhdpi" src="res/screen/android/images/res-long-port-xhdpi/default.png" />
+    <splash density="port-xxhdpi" src="res/screen/android/images/res-long-port-xxhdpi/default.png" />
+    <splash density="port-xxxhdpi" src="res/screen/android/images/res-long-port-xxxhdpi/default.png" />
+    <name>LIFT</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="https://au1.caspio.com" />
+    <access origin="https://raiselearning.com.au" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="10" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="EnableViewportScale" value="true" />
+</widget>

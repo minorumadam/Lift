@@ -1,0 +1,301 @@
+<!-- Home page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=1, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Home Page</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<!-- Status bar overlay for fullscreen mode-->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<!--Shows Menu items -->
+<div class="panel panel-left panel-reveal">
+    <div class="content-block-title">Home</div>
+    <div class="list-block">
+        <ul>
+            <li><a href="" class="close-panel item-link" onclick="home()">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Home</div>
+                    </div>
+                </div></a></li>
+        </ul>
+    </div>
+    <div class="content-block-title">Child</div>
+    <div class="list-block">
+        <ul>
+            <li><a href="observations.html"  class="close-panel item-link" onclick="observation_reset();">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon">
+                        <span id="badge_observation" class="badge bg-red">
+                    </span></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Observations</div>
+                    </div>
+                </div></a></li>
+            <li><a href="goals.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Goals</div>
+                    </div>
+                </div></a></li>
+            <li><a href="shareob.html" class="close-panel item-link" id="shareobservation">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Share Observation</div>
+                    </div>
+                </div></a></li>
+            <li><a href="sharegoal.html" class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Share Goal</div>
+                    </div>
+                </div></a></li>
+            <li><a href="helpus.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Help us know your child</div>
+                    </div>
+                </div></a></li>
+            <li><a href="familyinformation.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Family Information</div>
+                    </div>
+                </div></a></li>
+        </ul>
+    </div>
+    <div class="content-block-title">Group</div>
+    <div class="list-block">
+        <ul>
+            <li><a href="experiences.html" class="close-panel item-link" onclick="experiences_reset();">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon">
+                        <span id="badge_experiences" class="badge bg-red"></span>
+                    </i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Experiences</div>
+                    </div>
+                </div></a></li>
+            <li><a href="educators.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Educators</div>
+                    </div>
+                </div></a></li>
+            <li><a href="othergoals.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Other Goals</div>
+                    </div>
+                </div></a></li>
+            <li><a href="aboutservice.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">About Service</div>
+                    </div>
+                </div></a></li>
+        </ul>
+    </div>
+    <div class="content-block-title">Feeds</div>
+    <div class="list-block">
+        <ul>
+            <li><a href="calendarevents.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Calendar</div>
+                    </div>
+                </div></a></li>
+            <li><a href="news.html" class="close-panel item-link"  onclick="news_reset();">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon">
+                        <span id="badge_news" class="badge bg-red">
+                    </span>
+                    </i></div>
+                    <div class="item-inner">
+                        <div class="item-title">News</div>
+                    </div>
+                </div></a></li>
+            <li><a href="searchinformation.html"  class="close-panel item-link">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Search Information</div>
+                    </div>
+                </div></a></li>
+        </ul>
+    </div>
+   <!-- <div class="content-block-title">Sign out</div>
+    <div class="list-block">
+        <ul>
+        <li><a href="" class="close-panel item-link" onclick="log_out()">
+            <div class="item-content">
+                <div class="item-media"><i class="icon"></i></div>
+                <div class="item-inner">
+                    <div class="item-title">Sign out</div>
+                </div>
+            </div></a></li>
+        </ul>
+    </div>-->
+</div>
+
+<div class="views">
+    <!-- Your main view, should have "view-main" class-->
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <!-- We have home navbar without left link-->
+                <div class="center sliding">LIFT</div>
+                <div class="right">
+                    <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Page, data-page contains page name-->
+            <div data-page="main" class="page">
+                <!-- Scrollable page content-->
+                <div class="page-content" style="width:98%">
+                    <script type="text/javascript" src="https://au1.caspio.com/scripts/e1.js"></script>
+                    <script type="text/javascript">try{f_cbload("97202000672c7d00ca1c49fa945a","https:");}catch(v_e){;}</script>
+
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <!--<div class="toolbar tabbar tabbar-labels">
+            <div class="toolbar-inner"><a href="#view-1" class="tab-link active"> <i class="icon tabbar-demo-icon-1"></i><span class="tabbar-label">Information</span></a><a href="#view-2" class="tab-link"><i class="icon tabbar-demo-icon-2"></i><span class="tabbar-label">Inbox</span></a><a href="#view-3" class="tab-link"> <i class="icon tabbar-demo-icon-3"><span class="badge bg-red">4</span></i><span class="tabbar-label">Upload</span></a><a href="#view-4" class="tab-link"> <i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">Photos</span></a></div>
+        </div>-->
+    </div>
+</div>
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="cordova.js"></script>
+ <script type="text/javascript" src="js/index.js"></script> 
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
+<script type="text/javascript" src="js/badge.js"></script>
+<script type="text/javascript">
+    //Checks the Android version and loads different url based on the version
+    if(device.platform=="android"||device.platform=="Android")
+    {
+        if(device.version=='4.4')
+        {
+            document.getElementById('shareobservation').href="shareobandroid.html"; // If the Android version is 4.4 it loads a page without file uploading options
+        }
+        else
+        {
+            document.getElementById('shareobservation').href="shareob.html"; // If not it loads a page with file uploading options.
+        }
+    }
+    else
+    {
+        document.getElementById('shareobservation').href="shareob.html";
+    }
+    function observation_reset() //Reset badges when Observations menu item clicked
+    {
+        if(device.platform!="android"&&device.platform!="Android") {
+            var token = window.localStorage["token"]; //Get Device Token from the localStorage
+            var url = server_url() + '?mode=updatebadge&&token=' + token + '&&reset=r'+'&&index=0';
+            $.post(url,
+                    {}, function (res) {
+                        // Calls iOS badge reset script for Observations menu item
+                        receivehandler();
+                    });
+
+        }
+        else
+        {
+            var token = window.localStorage["regID"]; //Get Google Registration ID from the localStorage
+            var url = server_url() + '?mode=androidupdatebadge&&token=' + token + '&&reset=r'+'&&index=0';
+            $.post(url,
+                    {}, function (res) {
+                        //Calls Android badge reset script for Observations menu item
+                        android_receivehandler();
+                    });
+
+        }
+    }
+    function experiences_reset() //Reset badges when Experiences menu item clicked
+    {
+        if(device.platform!="android"&&device.platform!="Android") {
+            var token = window.localStorage["token"]; //Get Device Token from the localStorage
+            var url = server_url() + '?mode=updatebadge&&token=' + token + '&&reset=r'+'&&index=1';
+
+            $.post(url,
+                    {}, function (res) {
+                        //Calls iOS badge reset script for Experiences menu item
+                        receivehandler();
+                    });
+        }
+        else
+        {
+            var token = window.localStorage["regID"]; //Get Google Registration ID from the localStorage
+            var url = server_url() + '?mode=androidupdatebadge&&token=' + token + '&&reset=r'+'&&index=1';
+            $.post(url,
+                    {}, function (res) {
+                        //Calls Android badge reset script for Experiences menu item
+                        android_receivehandler();
+                    });
+        }
+    }
+    function news_reset()
+    {
+
+        if(device.platform!="android"&&device.platform!="Android") {
+           var token = window.localStorage["token"]; //Get Device Token from the localStorage
+           var url = server_url() + '?mode=updatebadge&&token=' + token + '&&reset=r'+'&&index=2';
+           $.post(url,
+                   {}, function (res) {
+                        //Calls iOS badge reset script for News menu item
+                       receivehandler();
+                   });
+       }
+        else
+        {
+            var token = window.localStorage["regID"]; //Get GCM Registration ID from the localStorage
+            var url = server_url() + '?mode=androidupdatebadge&&token=' + token + '&&reset=r'+'&&index=2';
+            $.post(url,
+                    {}, function (res) {
+                        //Calls Android badge reset script for News menu item
+                        android_receivehandler();
+                    });
+        }
+
+    }
+    function home()
+    {
+        location.href="main.html"; //Opens home page when Home menu item is clicked
+    }
+    function log_out() //Logout function - not used now
+    {
+        window.localStorage.removeItem("username");
+        window.localStorage.removeItem("password");
+        var ref=window.open("index.html",'_self','clearsessioncache=yes');
+    }
+</script>
+</body>
+</html>

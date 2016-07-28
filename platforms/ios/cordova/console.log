@@ -1,0 +1,203 @@
+2015-07-19 14:33:05.955 LIFT[28463:323418] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/E6CC607F-A11C-4113-B7A2-E1416DB2C619/Library/Cookies/Cookies.binarycookies
+2015-07-19 14:33:06.243 LIFT[28463:323418] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-19 14:33:06.243 LIFT[28463:323418] Multi-tasking -> Device: YES, App: YES
+2015-07-19 14:33:06.294 LIFT[28463:323418] Unlimited access to network resources
+2015-07-19 14:33:06.737 LIFT[28463:323418] [CDVTimer][splashscreen] 199.738979ms
+2015-07-19 14:33:06.737 LIFT[28463:323418] [CDVTimer][TotalPluginStartup] 199.985981ms
+2015-07-19 14:33:06.766 LIFT[28463:323418] active
+2015-07-19 14:33:07.073 LIFT[28463:323418] Resetting plugins due to page load.
+2015-07-19 14:33:07.739 LIFT[28463:323418] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/AF93568C-01D3-481A-B435-9D857697C080/LIFT.app/www/index.html
+2015-07-19 14:33:08.015 LIFT[28463:323418] THREAD WARNING: ['PushPlugin'] took '13.597900' ms. Plugin should use a background thread.
+2015-07-19 14:44:08.616 LIFT[28463:323418] active
+2015-07-19 14:52:52.997 LIFT[29201:332625] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/F3874C23-030F-4517-83C4-89F495C0C75E/Library/Cookies/Cookies.binarycookies
+2015-07-19 14:52:53.248 LIFT[29201:332625] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-19 14:52:53.248 LIFT[29201:332625] Multi-tasking -> Device: YES, App: YES
+2015-07-19 14:52:53.256 LIFT[29201:332625] Unlimited access to network resources
+2015-07-19 14:52:53.613 LIFT[29201:332625] [CDVTimer][splashscreen] 177.489996ms
+2015-07-19 14:52:53.614 LIFT[29201:332625] [CDVTimer][TotalPluginStartup] 177.666008ms
+2015-07-19 14:52:53.640 LIFT[29201:332625] active
+2015-07-19 14:52:53.959 LIFT[29201:332625] Resetting plugins due to page load.
+2015-07-19 14:52:54.265 LIFT[29201:332625] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/748AD649-DA0F-4BFF-B892-CA08E46EFCCF/LIFT.app/www/index.html
+2015-07-19 14:53:04.167 LIFT[29201:332625] Resetting plugins due to page load.
+2015-07-19 14:53:04.168 LIFT[29201:332625] IAB.close() called but it was already closed.
+2015-07-19 14:53:06.091 LIFT[29201:332625] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/748AD649-DA0F-4BFF-B892-CA08E46EFCCF/LIFT.app/www/main.html
+2015-07-19 15:42:25.297 LIFT[1100:14203] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/28FC05B0-2D07-428D-8199-12384BE5B64F/Library/Cookies/Cookies.binarycookies
+2015-07-19 15:42:25.652 LIFT[1100:14203] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-19 15:42:25.652 LIFT[1100:14203] Multi-tasking -> Device: YES, App: YES
+2015-07-19 15:42:25.781 LIFT[1100:14203] Unlimited access to network resources
+2015-07-19 15:42:33.411 LIFT[1100:14203] [CDVTimer][splashscreen] 6230.516016ms
+2015-07-19 15:42:33.411 LIFT[1100:14203] [CDVTimer][TotalPluginStartup] 6230.678976ms
+2015-07-19 15:42:35.403 LIFT[1100:14203] active
+2015-07-19 15:42:37.763 LIFT[1100:14203] Resetting plugins due to page load.
+2015-07-19 15:42:50.991 LIFT[1100:14203] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/32E6E58B-8A8B-4D03-83CB-1B8421667B81/LIFT.app/www/index.html
+2015-07-19 15:42:55.952 LIFT[1100:14203] THREAD WARNING: ['PushPlugin'] took '35.372803' ms. Plugin should use a background thread.
+2015-07-20 19:04:26.857 LIFT[45431:496466] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/9F651A8B-69F0-4731-B75D-71A83FDA91ED/Library/Cookies/Cookies.binarycookies
+2015-07-20 19:04:29.130 LIFT[45431:496466] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-20 19:04:29.136 LIFT[45431:496466] Multi-tasking -> Device: YES, App: YES
+2015-07-20 19:04:29.315 LIFT[45431:496466] Unlimited access to network resources
+2015-07-20 19:04:31.293 LIFT[45431:496466] [CDVTimer][splashscreen] 1319.312990ms
+2015-07-20 19:04:31.293 LIFT[45431:496466] [CDVTimer][TotalPluginStartup] 1319.481969ms
+2015-07-20 19:04:32.198 LIFT[45431:496466] active
+2015-07-20 19:04:32.721 LIFT[45431:496466] Resetting plugins due to page load.
+2015-07-20 19:04:35.271 LIFT[45431:496466] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/2E3D82E2-97EA-4A89-A13E-E65B01A75700/LIFT.app/www/index.html
+2015-07-20 19:04:35.868 LIFT[45431:496466] THREAD WARNING: ['PushPlugin'] took '13.988037' ms. Plugin should use a background thread.
+2015-07-20 19:04:38.982 LIFT[45431:496466] THREAD WARNING: ['InAppBrowser'] took '12.681885' ms. Plugin should use a background thread.
+2015-07-20 19:04:38.988 LIFT[45431:496466] Resetting plugins due to page load.
+2015-07-20 19:04:38.988 LIFT[45431:496466] IAB.close() called but it was already closed.
+2015-07-20 19:04:39.904 LIFT[45431:496466] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/2E3D82E2-97EA-4A89-A13E-E65B01A75700/LIFT.app/www/main.html
+2015-07-21 00:50:54.823 LIFT[1323:8059] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/E0632FC5-F82B-45A2-89B6-0B29A69BF0B1/Library/Cookies/Cookies.binarycookies
+2015-07-21 00:50:55.753 LIFT[1323:8059] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-21 00:50:55.753 LIFT[1323:8059] Multi-tasking -> Device: YES, App: YES
+2015-07-21 00:50:55.805 LIFT[1323:8059] Unlimited access to network resources
+2015-07-21 00:50:57.123 LIFT[1323:8059] [CDVTimer][splashscreen] 496.254981ms
+2015-07-21 00:50:57.123 LIFT[1323:8059] [CDVTimer][TotalPluginStartup] 496.443033ms
+2015-07-21 00:50:57.236 LIFT[1323:8059] active
+2015-07-21 00:50:57.677 LIFT[1323:8059] Resetting plugins due to page load.
+2015-07-21 00:50:58.282 LIFT[1323:8059] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/BD400CDC-1E6E-4107-BCDE-9C3F29B9D829/LIFT.app/www/index.html
+2015-07-21 00:51:08.290 LIFT[1323:8059] THREAD WARNING: ['InAppBrowser'] took '12.268066' ms. Plugin should use a background thread.
+2015-07-21 00:51:08.295 LIFT[1323:8059] Resetting plugins due to page load.
+2015-07-21 00:51:08.295 LIFT[1323:8059] IAB.close() called but it was already closed.
+2015-07-21 00:51:11.833 LIFT[1323:8059] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/BD400CDC-1E6E-4107-BCDE-9C3F29B9D829/LIFT.app/www/observations.html
+2015-07-22 20:58:46.541 LIFT[1162:13617] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/B837C5D8-76ED-42E1-81AA-DC8E3461CD72/Library/Cookies/Cookies.binarycookies
+2015-07-22 20:58:47.219 LIFT[1162:13617] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-22 20:58:47.220 LIFT[1162:13617] Multi-tasking -> Device: YES, App: YES
+2015-07-22 20:58:47.271 LIFT[1162:13617] Unlimited access to network resources
+2015-07-22 20:58:49.247 LIFT[1162:13617] [CDVTimer][splashscreen] 570.863962ms
+2015-07-22 20:58:49.247 LIFT[1162:13617] [CDVTimer][TotalPluginStartup] 571.042001ms
+2015-07-22 20:58:49.323 LIFT[1162:13617] active
+2015-07-22 20:58:49.811 LIFT[1162:13617] Resetting plugins due to page load.
+2015-07-22 20:58:50.314 LIFT[1162:13617] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/E1977C11-A2CB-45FC-BE50-FA74EA5E7108/LIFT.app/www/index.html
+2015-07-22 20:58:53.585 LIFT[1162:13617] Resetting plugins due to page load.
+2015-07-22 20:58:54.090 LIFT[1162:13617] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/E1977C11-A2CB-45FC-BE50-FA74EA5E7108/LIFT.app/www/main.html
+2015-07-22 20:59:22.291 LIFT[1162:14094] Terminating since there is no system app.
+2015-07-22 21:15:08.100 LIFT[2660:20331] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/003AF869-0CEB-4FDD-8894-6C5571C57650/Library/Cookies/Cookies.binarycookies
+2015-07-22 21:15:08.185 LIFT[2660:20331] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-22 21:15:08.185 LIFT[2660:20331] Multi-tasking -> Device: YES, App: YES
+2015-07-22 21:15:08.224 LIFT[2660:20331] Unlimited access to network resources
+2015-07-22 21:15:08.890 LIFT[2660:20331] [CDVTimer][splashscreen] 14.500976ms
+2015-07-22 21:15:08.890 LIFT[2660:20331] [CDVTimer][TotalPluginStartup] 14.663994ms
+2015-07-22 21:15:08.930 LIFT[2660:20331] active
+2015-07-22 21:15:08.970 LIFT[2660:20331] Resetting plugins due to page load.
+2015-07-22 21:15:09.371 LIFT[2660:20331] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/227E3E16-E193-4513-9278-99E91565CE3B/LIFT.app/www/index.html
+2015-07-22 21:15:13.642 LIFT[2660:20331] Resetting plugins due to page load.
+2015-07-22 21:15:14.125 LIFT[2660:20331] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/227E3E16-E193-4513-9278-99E91565CE3B/LIFT.app/www/main.html
+2015-07-22 21:56:12.208 LIFT[2660:38148] Terminating since there is no system app.
+2015-07-24 05:24:31.298 LIFT[1128:11763] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/31F6FC2C-5807-4232-953F-AFE01CAAC84E/Library/Cookies/Cookies.binarycookies
+2015-07-24 05:24:32.058 LIFT[1128:11763] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-24 05:24:32.059 LIFT[1128:11763] Multi-tasking -> Device: YES, App: YES
+2015-07-24 05:24:32.104 LIFT[1128:11763] Unlimited access to network resources
+2015-07-24 05:24:33.512 LIFT[1128:11763] [CDVTimer][splashscreen] 462.249994ms
+2015-07-24 05:24:33.512 LIFT[1128:11763] [CDVTimer][TotalPluginStartup] 462.417960ms
+2015-07-24 05:24:33.602 LIFT[1128:11763] active
+2015-07-24 05:24:33.952 LIFT[1128:11763] Resetting plugins due to page load.
+2015-07-24 05:24:34.578 LIFT[1128:11763] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/2476FBA4-744B-473F-9ECA-1E2043C107B6/LIFT.app/www/index.html
+2015-07-24 05:24:38.006 LIFT[1128:11763] Resetting plugins due to page load.
+2015-07-24 05:24:38.119 LIFT[1128:11763] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/2476FBA4-744B-473F-9ECA-1E2043C107B6/LIFT.app/www/main.html
+2015-07-24 05:29:37.748 LIFT[1128:11763] Resetting plugins due to page load.
+2015-07-24 05:29:37.843 LIFT[1128:11763] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/2476FBA4-744B-473F-9ECA-1E2043C107B6/LIFT.app/www/main.html
+2015-07-24 12:15:31.596 LIFT[4990:94518] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/48803039-D2CE-4431-B60A-89B2DCDC7DB9/Library/Cookies/Cookies.binarycookies
+2015-07-24 12:15:32.158 LIFT[4990:94518] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-24 12:15:32.159 LIFT[4990:94518] Multi-tasking -> Device: YES, App: YES
+2015-07-24 12:15:32.195 LIFT[4990:94518] Unlimited access to network resources
+2015-07-24 12:15:33.224 LIFT[4990:94518] [CDVTimer][splashscreen] 668.513000ms
+2015-07-24 12:15:33.224 LIFT[4990:94518] [CDVTimer][TotalPluginStartup] 668.694019ms
+2015-07-24 12:15:33.248 LIFT[4990:94518] active
+2015-07-24 12:15:34.266 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:15:34.729 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/index.html
+2015-07-24 12:15:43.304 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:15:49.288 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/main.html
+2015-07-24 12:15:57.112 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:15:59.177 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/main.html
+2015-07-24 12:16:06.669 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:16:11.327 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/main.html
+2015-07-24 12:16:13.698 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:16:14.428 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/main.html
+2015-07-24 12:16:14.517 LIFT[4990:94518] THREAD WARNING: ['PushPlugin'] took '10.149902' ms. Plugin should use a background thread.
+2015-07-24 12:16:17.230 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:16:22.983 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/main.html
+2015-07-24 12:17:24.099 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:17:31.117 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/main.html
+2015-07-24 12:18:41.938 LIFT[4990:94518] THREAD WARNING: ['PushPlugin'] took '17.647949' ms. Plugin should use a background thread.
+2015-07-24 12:18:44.972 LIFT[4990:94518] Resetting plugins due to page load.
+2015-07-24 12:18:48.503 LIFT[4990:94518] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B013D4E2-CA2A-4016-9711-3CA426ED8B2D/LIFT.app/www/main.html
+2015-07-24 12:44:06.180 LIFT[5439:102233] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/3B228FD0-B6FD-44EA-821D-6E67FB27B04A/Library/Cookies/Cookies.binarycookies
+2015-07-24 12:44:06.439 LIFT[5439:102233] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-24 12:44:06.439 LIFT[5439:102233] Multi-tasking -> Device: YES, App: YES
+2015-07-24 12:44:06.456 LIFT[5439:102233] Unlimited access to network resources
+2015-07-24 12:44:06.823 LIFT[5439:102233] [CDVTimer][splashscreen] 202.355981ms
+2015-07-24 12:44:06.823 LIFT[5439:102233] [CDVTimer][TotalPluginStartup] 202.535987ms
+2015-07-24 12:44:06.845 LIFT[5439:102233] active
+2015-07-24 12:44:07.175 LIFT[5439:102233] Resetting plugins due to page load.
+2015-07-24 12:44:07.502 LIFT[5439:102233] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/EABECB77-EA93-43DB-A2CD-3D7E8538BC47/LIFT.app/www/index.html
+2015-07-24 12:52:22.707 LIFT[5439:102233] active
+2015-07-25 15:52:53.513 LIFT[52707:746286] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/F20E5709-934E-438F-A0D8-F7FD014ACB53/Library/Cookies/Cookies.binarycookies
+2015-07-25 15:52:53.806 LIFT[52707:746286] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-25 15:52:53.807 LIFT[52707:746286] Multi-tasking -> Device: YES, App: YES
+2015-07-25 15:52:53.868 LIFT[52707:746286] Unlimited access to network resources
+2015-07-25 15:52:55.451 LIFT[52707:746286] [CDVTimer][splashscreen] 518.732965ms
+2015-07-25 15:52:55.451 LIFT[52707:746286] [CDVTimer][TotalPluginStartup] 518.898964ms
+2015-07-25 15:52:55.487 LIFT[52707:746286] active
+2015-07-25 15:52:55.949 LIFT[52707:746286] Resetting plugins due to page load.
+2015-07-25 15:52:56.563 LIFT[52707:746286] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B04F1BDF-6454-4A2C-BEAD-98E7CD6AD794/LIFT.app/www/index.html
+2015-07-25 15:53:16.964 LIFT[52707:746286] Resetting plugins due to page load.
+2015-07-25 15:53:19.963 LIFT[52707:746286] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/B04F1BDF-6454-4A2C-BEAD-98E7CD6AD794/LIFT.app/www/main.html
+2015-07-27 11:21:14.708 LIFT[74077:824725] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/2A888304-6B6F-4250-8992-A046977340D4/Library/Cookies/Cookies.binarycookies
+2015-07-27 11:22:30.349 LIFT[74194:825817] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/3C559025-C1DC-467A-B673-7B669F0CF07D/Library/Cookies/Cookies.binarycookies
+2015-07-27 11:22:31.044 LIFT[74194:825817] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-27 11:22:31.044 LIFT[74194:825817] Multi-tasking -> Device: YES, App: YES
+2015-07-27 11:22:31.094 LIFT[74194:825817] Unlimited access to network resources
+2015-07-27 11:22:32.551 LIFT[74194:825817] [CDVTimer][splashscreen] 427.137017ms
+2015-07-27 11:22:32.551 LIFT[74194:825817] [CDVTimer][TotalPluginStartup] 427.323043ms
+2015-07-27 11:22:32.598 LIFT[74194:825817] active
+2015-07-27 11:22:33.162 LIFT[74194:825817] Resetting plugins due to page load.
+2015-07-27 11:22:33.754 LIFT[74194:825817] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/64A32DA5-8CBE-4B14-BA4A-9F559C7FB4FA/LIFT.app/www/index.html
+2015-07-27 11:22:33.993 LIFT[74194:825817] THREAD WARNING: ['PushPlugin'] took '35.411621' ms. Plugin should use a background thread.
+2015-07-27 11:22:37.062 LIFT[74194:825817] Resetting plugins due to page load.
+2015-07-27 11:22:37.841 LIFT[74194:825817] THREAD WARNING: ['PushPlugin'] took '35.305908' ms. Plugin should use a background thread.
+2015-07-27 11:22:38.839 LIFT[74194:825817] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/64A32DA5-8CBE-4B14-BA4A-9F559C7FB4FA/LIFT.app/www/main.html
+2015-07-27 21:40:11.471 LIFT[96782:1049252] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Data/Application/B26E3C8F-6066-406D-8052-C0213357E959/Library/Cookies/Cookies.binarycookies
+2015-07-27 21:40:12.058 LIFT[96782:1049252] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-27 21:40:12.058 LIFT[96782:1049252] Multi-tasking -> Device: YES, App: YES
+2015-07-27 21:40:12.077 LIFT[96782:1049252] Unlimited access to network resources
+2015-07-27 21:40:12.728 LIFT[96782:1049252] [CDVTimer][splashscreen] 184.828997ms
+2015-07-27 21:40:12.728 LIFT[96782:1049252] [CDVTimer][TotalPluginStartup] 184.995949ms
+2015-07-27 21:40:12.790 LIFT[96782:1049252] active
+2015-07-27 21:40:13.108 LIFT[96782:1049252] Resetting plugins due to page load.
+2015-07-27 21:40:13.451 LIFT[96782:1049252] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/2AC9D325-A7F9-4AE4-BDC4-6F2C98568F6A/LIFT.app/www/index.html
+2015-07-27 21:40:16.745 LIFT[96782:1049252] Resetting plugins due to page load.
+2015-07-27 21:40:18.524 LIFT[96782:1049252] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/86F914E2-CBD4-4497-9BB1-7A2034FAD235/data/Containers/Bundle/Application/2AC9D325-A7F9-4AE4-BDC4-6F2C98568F6A/LIFT.app/www/main.html
+2015-09-24 10:55:37.203 LIFT[27224:195978] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Data/Application/6856D3ED-87B9-4900-8B1E-18F83F212C56/Library/Cookies/Cookies.binarycookies
+2015-09-24 10:55:37.315 LIFT[27224:195978] Apache Cordova native platform version 3.8.0 is starting.
+2015-09-24 10:55:37.315 LIFT[27224:195978] Multi-tasking -> Device: YES, App: YES
+2015-09-24 10:55:37.330 LIFT[27224:195978] Unlimited access to network resources
+2015-09-24 10:55:37.418 LIFT[27224:195978] [CDVTimer][splashscreen] 14.780998ms
+2015-09-24 10:55:37.419 LIFT[27224:195978] [CDVTimer][TotalPluginStartup] 14.948010ms
+2015-09-24 10:55:37.460 LIFT[27224:195978] active
+2015-09-24 10:55:37.476 LIFT[27224:195978] Resetting plugins due to page load.
+2015-09-24 10:55:37.620 LIFT[27224:195978] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Bundle/Application/C268A6B1-6D00-4849-82E7-77710D2399A3/LIFT.app/www/index.html
+2015-09-24 10:55:44.968 LIFT[27224:195978] Resetting plugins due to page load.
+2015-09-24 10:55:47.883 LIFT[27224:195978] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Bundle/Application/C268A6B1-6D00-4849-82E7-77710D2399A3/LIFT.app/www/main.html
+2015-09-25 18:27:09.591 LIFT[15356:142719] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Data/Application/CFD48774-F0B6-44C4-A9FA-9AB3677773B6/Library/Cookies/Cookies.binarycookies
+2015-09-25 18:27:10.060 LIFT[15356:142719] Apache Cordova native platform version 3.8.0 is starting.
+2015-09-25 18:27:10.061 LIFT[15356:142719] Multi-tasking -> Device: YES, App: YES
+2015-09-25 18:27:10.094 LIFT[15356:142719] Unlimited access to network resources
+2015-09-25 18:27:11.359 LIFT[15356:142719] [CDVTimer][splashscreen] 492.933035ms
+2015-09-25 18:27:11.359 LIFT[15356:142719] [CDVTimer][TotalPluginStartup] 493.133008ms
+2015-09-25 18:27:11.411 LIFT[15356:142719] active
+2015-09-25 18:27:11.835 LIFT[15356:142719] Resetting plugins due to page load.
+2015-09-25 18:27:12.520 LIFT[15356:142719] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Bundle/Application/34B7D502-C5BB-4B1E-BA6B-14722BF0580C/LIFT.app/www/index.html
+2015-09-25 18:27:12.792 LIFT[15356:142719] THREAD WARNING: ['PushPlugin'] took '73.715820' ms. Plugin should use a background thread.
+2015-09-25 18:27:25.812 LIFT[15356:142719] Resetting plugins due to page load.
+2015-09-25 18:27:27.658 LIFT[15356:142719] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Bundle/Application/34B7D502-C5BB-4B1E-BA6B-14722BF0580C/LIFT.app/www/main.html
+2015-09-25 18:30:44.108 LIFT[15643:144497] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Data/Application/FC55E4AC-B8A8-44DE-8632-0B8272A447C8/Library/Cookies/Cookies.binarycookies
+2015-09-25 18:30:44.380 LIFT[15643:144497] Apache Cordova native platform version 3.8.0 is starting.
+2015-09-25 18:30:44.381 LIFT[15643:144497] Multi-tasking -> Device: YES, App: YES
+2015-09-25 18:30:44.400 LIFT[15643:144497] Unlimited access to network resources
+2015-09-25 18:30:44.780 LIFT[15643:144497] [CDVTimer][splashscreen] 261.048973ms
+2015-09-25 18:30:44.781 LIFT[15643:144497] [CDVTimer][TotalPluginStartup] 261.219025ms
+2015-09-25 18:30:44.812 LIFT[15643:144497] active
+2015-09-25 18:30:45.168 LIFT[15643:144497] Resetting plugins due to page load.
+2015-09-25 18:30:45.523 LIFT[15643:144497] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Bundle/Application/85C3ED41-1B2E-4D6A-8BE0-0FB2DB3ED04F/LIFT.app/www/index.html
+2015-09-25 18:30:45.655 LIFT[15643:144497] THREAD WARNING: ['PushPlugin'] took '14.550049' ms. Plugin should use a background thread.
+2015-09-25 18:31:01.695 LIFT[15643:144497] Resetting plugins due to page load.
+2015-09-25 18:31:02.410 LIFT[15643:144497] Finished load of: file:///Users/kimuraisoroku/Library/Developer/CoreSimulator/Devices/9B5A1691-3BD6-4BC3-B367-3BA748FE0509/data/Containers/Bundle/Application/85C3ED41-1B2E-4D6A-8BE0-0FB2DB3ED04F/LIFT.app/www/main.html

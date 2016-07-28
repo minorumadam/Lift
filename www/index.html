@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>RaiseLearning</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+
+</head>
+<body>
+<!-- Status bar overlay for fullscreen mode-->
+
+
+<!-- Views-->
+<div class="views">
+    <!-- Your main view, should have "view-main" class-->
+    <div class="view view-main">
+        <!-- Top Navbar-->
+
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Page, data-page contains page name-->
+            <div data-page="index" class="page">
+                <!-- Scrollable page content-->
+                <div class="page-content">
+                    <div class="page-content login-screen-content">
+                        <div class="login-screen-title">LIFT</div>
+                        <form>
+                            <div class="list-block">
+                                <ul>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title label">Username</div>
+                                            <div class="item-input">
+                                                <input type="text" name="username" id="username"
+                                                       placeholder="Your username">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title label">Password</div>
+                                            <div class="item-input">
+                                                <input type="password" name="password" id="password"
+                                                       placeholder="Your password">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list-block">
+                                <ul>
+                                    <li><a href="#" class="item-link list-button" id="butLogin">Sign In</a></li>
+                                </ul>
+                                <div class="list-block-label">
+                                    <p>LIFT 2015</p>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Toolbar-->
+    <div class="popup popup-about">
+        <div class="content-block">
+            <p><a href="#" class="close-popup">Close</a></p>
+            <p>Please enter username and password</p>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Path to Framework7 Library JS-->
+<div class="app"> 
+    <div id="deviceready" class="blink"> 
+        <p class="event listening">Connecting to Device</p> 
+        <p class="event received">Device is Ready</p>
+    </div>
+</div>
+ 
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/PushNotification.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var myApp = new Framework7();
+    var $$ = Dom7;
+
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+        $.support.cors = true;
+        var u = window.localStorage["username"];
+        var p = window.localStorage["password"];
+        //Try to login with the saved user credentials
+        if (p && u)
+            login(u, p);
+
+        $('#butLogin').on('click', function () {
+            var u = $('#username').val();
+            var p = $('#password').val();
+            if (!u || !p) {
+                myApp.alert('Username or Password should not be empty.', 'Sign Up');
+
+            }
+            else {
+                login(u, p);
+            }
+        });
+    }
+
+    // Wait for device API libraries to load
+    //
+
+    $(document).ready(function () {
+
+    });
+    //Login handler
+    function login(u, p) {
+
+        var token = window.localStorage["token"];
+        var regID = window.localStorage["regID"];
+        var str = "https://au1.caspio.com/dp.asp?appKey=972020001ee74a2c78fa45a98e31&&xip_Email=" + u + "&&xip_Password=" + p;
+        myApp.showPreloader("Signing in...");
+        //Send validation request to the server with Email and Password
+        $.post(str, function (data, status) {
+            if (status == "success") {
+                try {
+                    window.localStorage["username"] = u;
+                    window.localStorage["password"] = p;
+                    if (data.length < 50000) {
+                        myApp.alert('Incorrect username or password.', 'Sign Up');
+                        myApp.hidePreloader();
+                    }
+                    else {
+
+                        if (device.platform == 'Android' || device.platform == 'android') {
+                            if (regID != 'undefined') {
+                                var url = server_url() + '?mode=addandroid&&regID=' + regID + "&&email=" + u;
+                                $.post(url, function (data) {
+                                    myApp.hidePreloader();
+                                    location.href = "main.html";
+                                });
+                            }
+                            else {
+                                myApp.hidePreloader();
+                                location.href = "main.html";
+                            }
+                        }
+                        else {
+                            if (token) {
+                                var url = server_url() + '?mode=addemail&&token=' + token + "&&email=" + u;
+                                //alert(url);
+                                $.post(url,
+                                        function (res) {
+                                            myApp.hidePreloader();
+                                            location.href = "main.html";
+                                        });
+                            }
+                            else {
+                                myApp.hidePreloader();
+                                location.href = "main.html";
+                            }
+                        }
+
+                    }
+                } catch (v_e) {
+                    myApp.alert('An error occured, please try again', 'Error');
+                    myApp.hidePreloader();
+
+                }
+            }
+        });
+        return false;
+
+    }
+</script>
+
+</body>
+</html>
